@@ -1,48 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  
   <title key="website_title" class="tr">Antoine's website</title>
+  
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
   <script src="js/respond.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/main.js"></script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 </head>
+
 <body>
   <div id="header">
     <nav>
       <div class="lang_switcher">
-      <li class="downloads"><button id="en" class="lang">En</button></li>
-      <li class="downloads"><button id="fr" class="lang">Fr</button></li>
-      <li class="title tr" key="language_txt">Language: </li>
+        <li class="downloads"><a id="en" class="lang">En</a></li>
+        <li class="downloads"><a id="fr" class="lang">Fr</a></li>
+        <li class="title tr" key="language_txt">Language: </li>
       </div>
+      <li class="fork"><a class="menu_btn tr" href="view/about.html" key="about_menu">About me</a></li>
+      <li class="fork"><a class="menu_btn tr" href="view/resume.html" key="resume_menu">Resume</a></li>
+      <li class="fork"><a class="menu_btn tr" href="view/skills.html" key="skills_menu">Skills</a></li>
+      <li class="fork"><a class="menu_btn tr" href="view/pro_exp.html" key="pro_menu">Profesional exp</a></li>
     </nav>
   </div>
-
 
   <div class="wrapper">
     <section>
       <div id="title">
         <h1 ><span key="welcome_title" class="bold tr" style="color:yellow">Welcome</span></h1>
         <hr>
-        <span class="credits left tr" key="author">Website maintained by Antoine Laulan.</span>
       </div>
-      <h3 class="tr" key="website_state_title">Website processing...</h3>
-      <p class="tr" key="website_state_txt">
+      <h3 class="tr" key="website_p1_title">Website processing...</h3>
+      <p class="tr" key="website_p1_txt">
         Welcome to my first personal website. His purpose is to 
-extend and precise my resume. Enjoy your visit and please if you notice something wrong tell me about it at the following
-mail address: 
+        extend and precise my resume. Enjoy your visit and please if you notice something wrong tell me about it at the following
+        mail address: 
       </p>
       <span class="bold" style="color:yellow">antoinelaul@outlook.fr</span>
     </section>
   </div>
-</body>
 
+</body>
 
 </html>
